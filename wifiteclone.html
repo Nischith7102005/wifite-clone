@@ -1,0 +1,304 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Wifite App Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 font-roboto">
+  <div class="container mx-auto p-4">
+   <header class="flex justify-between items-center py-4">
+    <div class="flex items-center">
+     <img alt="Wifite app logo, a stylized Wi-Fi symbol" class="mr-3" height="50" src="https://storage.googleapis.com/a1aa/image/GfodJNN9qgTlPC3CL3awotDN97zdmFlTiP72WKFffmkRn6ePB.jpg" width="50"/>
+     <h1 class="text-2xl font-bold">
+      Wifite
+     </h1>
+    </div>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Features
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Pricing
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </header>
+   <main>
+    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
+     <h2 class="text-xl font-semibold mb-4">
+      Available Networks
+     </h2>
+     <ul>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 1
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 1')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 2
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 2')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 3
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 3')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 4
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 4')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 5
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 5')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 6
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 6')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 7
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 7')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 8
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 8')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 9
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 9')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 10
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 10')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 11
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 11')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 12
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 12')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 13
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 13')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 14
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 14')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 15
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 15')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 16
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 16')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 17
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 17')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 18
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 18')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 19
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 19')">
+        Connect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Wi-Fi network icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/Sgs9LfrxU1VJT6dspfTMBTeiBweQzOKn4xm8otf9iftR5U3fJA.jpg" width="30"/>
+        <span>
+         Network 20
+        </span>
+       </div>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="connectToNetwork('Network 20')">
+        Connect
+       </button>
+      </li>
+     </ul>
+    </section>
+    <section class="bg-white p-6 rounded-lg shadow-md">
+     <h2 class="text-xl font-semibold mb-4">
+      Connected Devices
+     </h2>
+     <ul>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Device icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/mb5eh0gxCftYkEm4OqMn3mxMGHdffXWeQALSL24YdOt4cq7fE.jpg" width="30"/>
+        <span>
+         Device 1
+        </span>
+       </div>
+       <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" onclick="disconnectDevice('Device 1')">
+        Disconnect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+        <img alt="Device icon" class="mr-3" height="30" src="https://storage.googleapis.com/a1aa/image/mb5eh0gxCftYkEm4OqMn3mxMGHdffXWeQALSL24YdOt4cq7fE.jpg" width="30"/>
+        <span>
+         Device 2
+        </span>
+       </div>
+       <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" onclick="disconnectDevice('Device 2')">
+        Disconnect
+       </button>
+      </li>
+      <li class="flex justify-between items-center py-2 border-b">
+       <div class="flex items-center">
+       
